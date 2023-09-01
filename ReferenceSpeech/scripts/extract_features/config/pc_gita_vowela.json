@@ -1,0 +1,12 @@
+{
+    "dataset_name":"pc_gita_a",
+    "tasks":{
+        "vowel_a": "all"
+    },
+    "fpath_linguistic":"/path/to/ReferenceSpeech/features/pcgita_vowel/linguistic.csv",
+    "fpath_coref": "/path/to/ReferenceSpeech/features/pcgita_vowel/coref.csv",
+    "fpath_praat": "/path/to/ReferenceSpeech/features/pcgita_vowel/praat_feats.csv",
+    "fpath_eGeMAPS": "/path/to/ReferenceSpeech/features/pcgita_vowel/eGeMAPSv02.csv",
+
+    "fpath_featset": "/path/to/ReferenceSpeech/features/pcgita_vowel/final_featureset.csv"
+}

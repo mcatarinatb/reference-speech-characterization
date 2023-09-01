@@ -1,0 +1,8 @@
+language: "en"
+features:
+- "content_density" 
+- "idea_density"
+- "honore_statistic"
+- "brunet_index"
+- "type_token_ratio"
+- "discourse_marker_rate"

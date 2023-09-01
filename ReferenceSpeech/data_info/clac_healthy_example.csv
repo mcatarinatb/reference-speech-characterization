@@ -1,0 +1,6 @@
+age,education,gender,partition,spk,spk_id,symptoms,task,task_type,transcript_path,wav_path,worker_city,worker_country,worker_region
+41,17.0,male,train,0spk860,spk860,no,picnic,pic_description,/path/to//clac/transcriptions/picnic/spk860.txt,/path/to/clac/CLAC-Dataset/16kHz_wavs/picnic/spk860.wav,Gilbert,United States (US),Arizona (AZ)
+41,17.0,male,train,0spk860,spk860,no,rainbow,read_speech,/path/to//clac/transcriptions/rainbow/spk860.txt,/path/to/clac/CLAC-Dataset/16kHz_wavs/rainbow/spk860.wav,Gilbert,United States (US),Arizona (AZ)
+41,17.0,male,train,0spk860,spk860,no,cookie_theft,pic_description,/path/to//clac/transcriptions/cookie_theft/spk860.txt,/path/to/clac/CLAC-Dataset/16kHz_wavs/cookie_theft/spk860.wav,Gilbert,United States (US),Arizona (AZ)
+41,17.0,male,train,0spk860,spk860,no,grandfather,read_speech,/path/to//clac/transcriptions/grandfather/spk860.txt,/path/to/clac/CLAC-Dataset/16kHz_wavs/grandfather/spk860.wav,Gilbert,United States (US),Arizona (AZ)
+29,18.0,female,train,0spk131,spk131,no,vowel_a,vowel_a,,/path/to/clac/CLAC-Dataset/16kHz_wavs/max_phonation/spk131.wav,Vienna,United States (US),Virginia (VA)

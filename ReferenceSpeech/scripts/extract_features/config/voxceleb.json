@@ -1,0 +1,12 @@
+{
+    "dataset_name":"voxceleb_annotated_usa_concatenated",
+    "tasks":{
+        "free_speech_segm_concat": "all"
+    },
+    "fpath_linguistic":"/path/to/ReferenceSpeech/features/voxceleb_annotated_usa_concatenated/linguistic.csv",
+    "fpath_coref": "/path/to/ReferenceSpeech/features/voxceleb_annotated_usa_concatenated/coref.csv",
+    "fpath_praat": "/path/to/ReferenceSpeech/features/voxceleb_annotated_usa_concatenated/praat_feats.csv",
+    "fpath_eGeMAPS": "/path/to/ReferenceSpeech/features/voxceleb_annotated_usa_concatenated/eGeMAPSv02.csv",
+    
+    "fpath_featset": "/path/to/ReferenceSpeech/features/voxceleb_annotated_usa_concatenated/final_featureset.csv"
+}

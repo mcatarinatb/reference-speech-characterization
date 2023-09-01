@@ -1,0 +1,5 @@
+wav_path,wav_id,spk_id,time_id,folder_diag,transcript_diag,transcript_path,age,hamilton,depression_binary,mmse,gender,task_type
+/path/to/dementiabank/standard_release_2020_participant_only/audio/146-1.wav,146-1,146,1,Control,Control,/path/to/dementiabank/standard_release_2020_participant_only/transcriptions//Control/146-1.txt,73,4.0,Control,28.0,male,pic_description
+/path/to/dementiabank/standard_release_2020_participant_only/audio/118-1.wav,118-1,118,1,Control,Control,/path/to/dementiabank/standard_release_2020_participant_only/transcriptions//Control/118-1.txt,67,0.0,Control,30.0,female,pic_description
+/path/to/dementiabank/standard_release_2020_participant_only/audio/181-1.wav,181-1,181,1,Dementia,ProbableAD,/path/to/dementiabank/standard_release_2020_participant_only/transcriptions//Dementia/181-1.txt,79,2.0,Control,17.0,female,pic_description
+/path/to/dementiabank/standard_release_2020_participant_only/audio/018-0.wav,018-0,018,0,Dementia,ProbableAD,/path/to/dementiabank/standard_release_2020_participant_only/transcriptions//Dementia/018-0.txt,66,14.0,Depression,11.0,male,pic_description

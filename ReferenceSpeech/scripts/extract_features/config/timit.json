@@ -1,0 +1,12 @@
+{
+    "dataset_name":"timit_concatenated",
+    "tasks":{ 
+        "read_speech": "all"
+    },
+    "fpath_linguistic":"/path/to/ReferenceSpeech/features/timit_concatenated/linguistic.csv",
+    "fpath_coref": "/path/to/ReferenceSpeech/features/timit_concatenated/coref.csv",
+    "fpath_praat": "/path/to/ReferenceSpeech/features/timit_concatenated/praat_feats.csv",
+    "fpath_eGeMAPS": "path/to/ReferenceSpeech/features/timit_concatenated/eGeMAPSv02.csv",
+    
+    "fpath_featset": "/path/to/ReferenceSpeech/features/timit_concatenated/final_featureset.csv"
+}

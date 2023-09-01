@@ -1,0 +1,3 @@
+wav_path,wav_id,spk,partition,duration,dataset,video_id,age,gender,transcript_path,task_type
+/path/to/voxceleb/concat_segments_usa//id06432/Sb_AcJWXBog/id06432_Sb_AcJWXBog_0000.wav,id06432_Sb_AcJWXBog_0000,id06432,train,62.336000000000006,voxceleb2_dev,Sb_AcJWXBog,32.0,male,/path/to/voxceleb_annotated_usa_concatenated/transcriptions/id06432/id06432_Sb_AcJWXBog_0000.txt,concat_interview_segm
+/path/to/voxceleb/concat_segments_usa//id06237/qrQ0pe5J3ls/id06237_qrQ0pe5J3ls_0000.wav,id06237_qrQ0pe5J3ls_0000,id06237,train,62.01600000000001,voxceleb2_dev,qrQ0pe5J3ls,36.0,female,/path/to/voxceleb_annotated_usa_concatenated/transcriptions/id06237/id06237_qrQ0pe5J3ls_0000.txt,concat_interview_segm

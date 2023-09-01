@@ -1,0 +1,14 @@
+{
+    "dataset_name":"clac",
+    "tasks":{
+        "free_speech_picture": ["cookie_theft", "picnic"], 
+        "read_speech": ["rainbow","grandfather"],
+        "vowel_a": ["vowel_a"]
+    },
+    "fpath_linguistic":"/path/to/ReferenceSpeech/features/clac/linguistic.csv",
+    "fpath_coref": "/path/to/ReferenceSpeech/features/clac/coref.csv",
+    "fpath_praat": "/path/to/ReferenceSpeech/features/clac/praat_feats.csv",
+    "fpath_eGeMAPS": "/path/to/ReferenceSpeech/features/clac/eGeMAPSv02.csv",
+
+    "fpath_featset": "/path/to/ReferenceSpeech/features/clac/final_featureset.csv"
+} 

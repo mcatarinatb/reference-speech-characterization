@@ -1,0 +1,107 @@
+{
+    "config": "large_set",
+    "details":
+        [{
+            "rename": "none",
+            "source": "linguistic",
+            "datasets_tasks": ["free_speech_picture"],
+            "features": ["content_density", "idea_density", "honore_statistic", "brunet_index", "type_token_ratio",
+            "discourse_marker_rate", 
+            "polarity", 
+            "repeat_ratio",
+            "mean_coher_sentence","variability_coher_sentence","mean_coher_14tokens","variability_coher_14tokens",
+            "1st_pronouns_ratio"
+            ]
+        },
+
+        {
+            "rename": "none",
+            "source": "coref",
+            "datasets_tasks": ["free_speech_picture"],
+            "features": ["ambiguous_ref_ratio","ref_chain_ratio"]
+        },
+
+        {
+            "rename": "none",
+            "source": "praat",
+            "datasets_tasks": "all",
+            "features": ["meanF0","stdevF0","minF0","maxF0","hnr",
+            "localJitter","localabsoluteJitter","rapJitter","ppq5Jitter","ddpJitter","localShimmer","localdbShimmer","apq3Shimmer","aqpq5Shimmer","apq11Shimmer","ddaShimmer",
+            "f1_mean","f2_mean","f3_mean","f4_mean","f1_median","f2_median","f3_median","f4_median"
+            ]
+        },
+
+        {
+            "rename": "none",
+            "source": "praat",
+            "datasets_tasks": ["free_speech_picture", "free_speech_segm_concat", "read_speech"],
+            "features": [
+            "speechrate(nsyll / dur)","articulation rate(nsyll / phonationtime)","ASD(speakingtime / nsyll)",
+             "mean_pause_dur","mean_speech_dur","silence_rate (silencetime/dur)","silence_speech_ratio","mean_sil_count","lsil_rate","lsil_speech_ratio","mean_lsil_count"
+            ]
+        },
+
+
+        {
+            "rename": "none",
+            "source": "eGeMAPS",
+            "datasets_tasks": "all",
+            "features": [
+                "F0semitoneFrom27.5Hz_sma3nz_amean", "F0semitoneFrom27.5Hz_sma3nz_stddevNorm", "F0semitoneFrom27.5Hz_sma3nz_percentile20.0", "F0semitoneFrom27.5Hz_sma3nz_percentile50.0", 
+                "F0semitoneFrom27.5Hz_sma3nz_percentile80.0", "F0semitoneFrom27.5Hz_sma3nz_pctlrange0-2","F0semitoneFrom27.5Hz_sma3nz_meanRisingSlope", 
+                "F0semitoneFrom27.5Hz_sma3nz_stddevRisingSlope", "F0semitoneFrom27.5Hz_sma3nz_meanFallingSlope", "F0semitoneFrom27.5Hz_sma3nz_stddevFallingSlope",
+                
+                "HNRdBACF_sma3nz_amean", "HNRdBACF_sma3nz_stddevNorm",
+                "jitterLocal_sma3nz_amean", "jitterLocal_sma3nz_stddevNorm", "shimmerLocaldB_sma3nz_amean", "shimmerLocaldB_sma3nz_stddevNorm", 
+                
+                "F1frequency_sma3nz_amean", "F1frequency_sma3nz_stddevNorm", "F1bandwidth_sma3nz_amean", "F1bandwidth_sma3nz_stddevNorm",
+                "F2frequency_sma3nz_amean", "F2frequency_sma3nz_stddevNorm", "F2bandwidth_sma3nz_amean","F2bandwidth_sma3nz_stddevNorm",
+                "F3frequency_sma3nz_amean", "F3frequency_sma3nz_stddevNorm", "F3bandwidth_sma3nz_amean","F3bandwidth_sma3nz_stddevNorm",
+                
+                "loudnessPeaksPerSec", "VoicedSegmentsPerSec", "MeanVoicedSegmentLengthSec", "StddevVoicedSegmentLengthSec", "MeanUnvoicedSegmentLength", "StddevUnvoicedSegmentLength"
+                
+            ]
+        },
+
+
+
+
+        {
+            "rename": "_foroutlierdetect",
+            "source": "linguistic",
+            "datasets_tasks": "all",
+            "features": []
+        },
+        {
+            "rename": "_foroutlierdetect",
+            "source": "coref",
+            "datasets_tasks": "all",
+            "features": []
+        },
+        {
+            "rename": "_foroutlierdetect",
+            "source": "praat",
+            "datasets_tasks": "all",
+            "features": []
+        },
+        {
+            "rename": "_foroutlierdetect",
+            "source": "eGeMAPS",
+            "datasets_tasks": "all",
+            "features": [
+                "F0semitoneFrom27.5Hz_sma3nz_amean", "F0semitoneFrom27.5Hz_sma3nz_stddevNorm", "F0semitoneFrom27.5Hz_sma3nz_percentile20.0", "F0semitoneFrom27.5Hz_sma3nz_percentile50.0", 
+                "F0semitoneFrom27.5Hz_sma3nz_percentile80.0", "F0semitoneFrom27.5Hz_sma3nz_pctlrange0-2","F0semitoneFrom27.5Hz_sma3nz_meanRisingSlope", 
+                "F0semitoneFrom27.5Hz_sma3nz_stddevRisingSlope", "F0semitoneFrom27.5Hz_sma3nz_meanFallingSlope", "F0semitoneFrom27.5Hz_sma3nz_stddevFallingSlope",
+                
+                "HNRdBACF_sma3nz_amean", "HNRdBACF_sma3nz_stddevNorm",
+                "jitterLocal_sma3nz_amean", "jitterLocal_sma3nz_stddevNorm", "shimmerLocaldB_sma3nz_amean", "shimmerLocaldB_sma3nz_stddevNorm", 
+                
+                "F1frequency_sma3nz_amean", "F1frequency_sma3nz_stddevNorm", "F1bandwidth_sma3nz_amean", "F1bandwidth_sma3nz_stddevNorm",
+                "F2frequency_sma3nz_amean", "F2frequency_sma3nz_stddevNorm", "F2bandwidth_sma3nz_amean","F2bandwidth_sma3nz_stddevNorm",
+                "F3frequency_sma3nz_amean", "F3frequency_sma3nz_stddevNorm", "F3bandwidth_sma3nz_amean","F3bandwidth_sma3nz_stddevNorm",
+                
+                "loudnessPeaksPerSec", "VoicedSegmentsPerSec", "MeanVoicedSegmentLengthSec", "StddevVoicedSegmentLengthSec", "MeanUnvoicedSegmentLength", "StddevUnvoicedSegmentLength" 
+            ]
+        }
+    ]
+}
